@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Question</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+ <h2> </h2>
+
+Will you marry me? 
+    <span onclick="clear()" id="div"> 💌 </span>
+    <br>
+    <button onclick="Yes()" id="yes"> Yes </button>
+    <button onclick="No()" id="no"> No </button>
+    <br>
+    <p id="text"></p>
+    <br>
+  </div>
+</body>
+<script src="script.js"></script>
+
+</html>
